@@ -1,0 +1,282 @@
+/* css of index */
+/* for over all*/
+
+body{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#ffffff;
+    box-sizing: border-box;
+}
+
+/* for everything*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+.stars{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/*for index*/
+/* Header */
+header{
+	background: #35424a;
+	color:#ffffff;
+	padding-top:30px; 
+	min-height:70px;
+	border-bottom:#15d6c3 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #moondrop{
+  float:left;
+}
+
+header #moondrop h1{
+  margin: 0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .starlight a{
+  color:#15d6c3;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#15d6c3;
+  font-weight:bold;
+}
+
+/* for the linear */
+#linear {  
+  min-height:430px;
+  background:url('../img/art12.jpg') no-repeat 0 -370px;
+  width: auto;
+  text-align:center;
+  color:#ffffff;
+}
+
+/*for the h1*/
+#linear h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+/*for the p | definition*/
+#linear p{
+  font-size:20px;
+}
+
+/* footer */
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#065970;
+  text-align: center;
+}
+/*ending css for the index | home*/
+
+/*css for the body*/
+/* who am i */
+article#shooting{
+  float:left;
+  width:50%;
+  text-align: justify;
+}
+
+/* about body  */
+aside#clouds{
+  float:right;
+  width:45%;
+  margin-top:10px;
+}
+
+h3{
+	text-orientation: uppercase;
+	text-align: center;
+	font: 20px/1.5 Arial, Helvetica,sans-serif;
+}
+
+.twinkle{
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold; 
+	font-size: 20;
+}
+
+.light{
+	font-weight: bold;
+	font: 20px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bold;
+}
+
+aside li{
+	padding: 0;
+	margin: 0;
+}
+
+aside ul{
+	padding-left: 10px;
+}
+
+aside#clouds .quote input, aside#clouds .quote textarea{
+  width:90%;
+  padding:5px;
+}
+/*ending css for the about*/
+
+
+/*ccs for contacts*/
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit]{
+	background-color: #15d6c3;
+	color: #000000;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=submit] .hover {
+	background-color: #45a049;
+}
+
+h4{
+	text-orientation: uppercase;
+	text-align: center;
+	font: 20px/1.5 Arial, Helvetica,sans-serif;
+	padding-left: 8px; 
+}
+
+.dust{
+	width: 45%;
+	height: 600px;
+	float: right;
+	border-radius: 5px;
+	padding: 20px;
+	padding-left: 10px;
+}
+
+.planet{
+	font-family:Poppins-Regular;
+	color: gray;
+	text-transform: uppercase;
+	align-items: left;
+	width: 100%;
+	display: flex;
+}
+
+input#fname{
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+    padding: 12px 30px;
+}
+
+input#lname{
+	width: 300px;
+	margin-top: 9px;
+}
+
+.galaxy{
+	background:url('../img/baka.jpg') no-repeat 0 -400px; 
+	height: 600px;
+	width: 47%;
+    background-size: cover;
+    background-position: ;
+    position: relative;
+    padding: 30px 15px 0px 15px;
+    margin-top: 50px;
+}
+
+.milky {
+  font-size: 25px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: justify;
+  text-indent: 15px;
+  padding-left: 50px;
+}
+
+.earth {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: justify;
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
+
+.sun {
+  font-size: 22px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: justify;
+  text-transform: uppercase;
+  padding-left: 60px;
+  padding-bottom: 40px
+}
+
+/*css for flexibility | responsiveness*/
+/* Media Queries */
+@media(max-width: 768px){
+  header #moondrop,
+  header nav,
+  header nav li,{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #linear h1{
+    margin-top:40px;
+  }
+
+
+
